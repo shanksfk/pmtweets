@@ -16,9 +16,7 @@ Including another URLconf
 from unicodedata import name
 from django.contrib import admin
 from django.urls import path, include
-
-from twitter.views import Tweet_list
-
+# from twitter.views import Tweet_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
